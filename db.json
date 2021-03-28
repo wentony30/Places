@@ -1,0 +1,60 @@
+{
+  "lugares": [
+    {
+      "id": 1,
+      "cidade": {
+        "nome_cidade": "Rio de Janeiro",
+        "lugar": [
+          {
+            "nome": "Cristo Redentor",
+            "img": "https://t3.gstatic.com/images?q=tbn:ANd9GcS-lI8dDTAYonrBjH1ZDTy6VJkS3PhDRWjg-gROGf_YngjBO_cMrPuhGem-ndq_WQlV-xseOYbMDQlW02L1Y6fZhw",
+            "description": "Cristo Redentor é uma estátua art déco que retrata Jesus Cristo, localizada no topo do morro do Corcovado, a 709 metros acima do nível do mar, no Parque Nacional da Tijuca, com vista para a maior parte da cidade do Rio de Janeiro, Brasil. Em 2007 foi eleito informalmente como uma das sete maravilhas do mundo moderno. Em 2012 a UNESCO considerou o Cristo Redentor como parte da paisagem do Rio de Janeiro incluída na lista de Patrimônios da Humanidade. O monumento foi concebido pelo engenheiro brasileiro Heitor da Silva Costa e construído em colaboração com o escultor francês Paul Landowski e com o engenheiro compatriota Albert Caquot, entre 1922 e 1931 na França, devido o pensamento dos franceses, de que os brasileiros não tinham experiência para construir a estátua. Foi inaugurada no dia 12 de outubro de 1931, dia de Nossa Senhora Aparecida e fica no bairro do Alto da Boa Vista."
+          },
+          {
+            "nome": "Pão de Açucar",
+            "img": "https://t0.gstatic.com/images?q=tbn:ANd9GcRuv8pvre5hCCbRoi_4BkDtQr7JIz9MOAVtgnJ_521XcgPQY8AvfIjEtoqR1ix65irZJuKAP7IkSgUUROtUZs4_6w",
+            "description": "Monumento Natural dos Morros do Pão de Açúcar e da Urca é um complexo de morros localizado no bairro da Urca, na cidade do Rio de Janeiro, no Brasil. É composto pelo Morro do Pão de Açúcar e pelo Morro da Urca. Junto com a estátua do Cristo Redentor, é o maior cartão-postal da cidade do Rio de Janeiro e um dos mais famosos do Brasil. Pelas características únicas, margeado pelas águas da baía de Guanabara, constitui-se em uma referência turística internacional para a cidade. Possui, como atração complementar, o passeio de teleférico, interligando a Praia Vermelha, o Morro da Urca e o Morro do Pão de Açúcar."
+          },
+          {
+            "nome": "Corcovado",
+            "img": "https://t2.gstatic.com/images?q=tbn:ANd9GcTQ4WWBAHU-WkRZATB8vqksQdM9FOTOAbUOjVjWfA92vW3xVe6pWcX4o92ibimKjJAmbzM5Y5qht7oVuuEj8BVsug",
+            "description": "O Corcovado é um dos morros da cidade do Rio de Janeiro, célebre no Brasil e no mundo pela sua estátua do Cristo Redentor de 38 metros de altura. O Cristo Redentor é um dos principais símbolos do país e oferece uma privilegiada vista panorâmica da cidade do Rio de Janeiro. Em 2003 foram concluídas as obras de instalação de elevadores e escadas rolantes no local. Antes, era preciso vencer 220 degraus para desfrutar da paisagem. No dia 7 de julho de 2007, a estátua do Cristo Redentor foi eleita em uma votação uma das novas sete maravilhas do mundo."
+          },
+          {
+            "nome": "Praia do Arpoador",
+            "img": "https://t3.gstatic.com/images?q=tbn:ANd9GcTYbcwl6HYXdl1jQD_Q4vBK366X_lRMhpsER5mmB2nio1IK8ZjYxari1oJar5_yDx7TJapZOkeQ-Y0O7rJj-Sdizg",
+            "description": "Arpoador é uma praia e uma formação rochosa, ambas situadas no bairro de Ipanema, no município do Rio de Janeiro, no estado do Rio de Janeiro, no Brasil. Localiza-se entre as praias do Diabo e de Ipanema. Apresenta espaço restrito, por se tratar de uma praia pequena, com cerca de 500 metros de comprimento. A praia do Arpoador é conhecida como a praia dos surfistas, uma vez que conta com muitas ondas grandes, propícias à prática desse esporte."
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "cidade": {
+        "nome_cidade": "Miami",
+        "lugar": [
+          {
+            "nome": "Ocean Drive",
+            "img": "https://t0.gstatic.com/images?q=tbn:ANd9GcR7yZg5-tQ1eHh3Vxu6KtLwoOJIeSvZyB0p1PLrocD4caJU3MEmcqm0MmfE5MauSAEEWEh_gh4yDSqBEhllsQLR4g",
+            "description": "Art déco, praia e vida noturna"
+          },
+          {
+            "nome": "Villa Vizcaya",
+            "img": "https://t0.gstatic.com/images?q=tbn:ANd9GcRX_e0kL9j0mDxAT-tPtgZzvEqsv3C311__0hcBEwooxJFYk8MVLrC8hMxbBUtSrjMuids3afT3LOe1dhFf7aMOfw",
+            "description": "Villa Vizcaya é uma propriedade em estilo renascentista italiano localizada nas proximidades de Miami construída entre 1914 e 1916 como residência de James Deering, o então vice-presidente da International Harvester. A propriedade foi designada, em 29 de setembro de 1970, um distrito do Registro Nacional de Lugares Históricos, tendo um incremento de sua fronteira em 15 de novembro de 1978. Em 19 de abril de 1994, foi designada um edifício do Marco Histórico Nacional."
+          },
+          {
+            "nome": "South Pointe Park",
+            "img": "https://t2.gstatic.com/images?q=tbn:ANd9GcToUgr2fbTzdQy6BxYYjIKLHm6ntP-A1csGNwhewAviOP0YvjkWDyIE7xNERFkVZXiHm5YMGmvgTaS7mdeSsyndHg",
+            "description": "Parque, praia e art déco"
+          },
+          {
+            "nome": "Venetian Pool",
+            "img": "https://t2.gstatic.com/images?q=tbn:ANd9GcTBVyLVTarp7p_mu1BJ5YVA9gvHwFXfNoLaLhjMrWh2Sh5YRdPZNNDrTGwGMfuTGu95h6RSrKLLATAzfoxWabfuZQ",
+            "description": "Venetian Pool é uma piscina pública histórica dos Estados Unidos localizada em Coral Gables, na Flórida. Concluída em 1924, foi projetada por Phineas Paist com Denman Fink. Em 1981, Venetian Pool foi adicionada ao Registro Nacional de Lugares Históricos, e é a única piscina listada no registro."
+          }
+        ]
+      }
+    }
+  ]
+}
