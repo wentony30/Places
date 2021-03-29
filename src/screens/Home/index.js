@@ -16,8 +16,8 @@ const Home = () => {
         return (
             <View style={styles.todosLugares} >
                 {Places.map((lugar, index) => (
-                    <ContainerItem key={lugar.nome} onPress={() => handlePress(index)}>
-                        <Image source={{ uri: `${lugar.img}` }} style={styles.imageLugares} />
+                    <ContainerItem key={lugar.nome} onPress={() => handlePress(lugar)}>
+                        <Image source={{ uri: lugar.img }} style={styles.imageLugares} />
                         <TextItem>{lugar.nome}</TextItem>
                     </ContainerItem>
                 ))}
@@ -26,9 +26,9 @@ const Home = () => {
     }
 
 
-    const handlePress = (index) => {
+    const handlePress = (lugar) => {
         navigation.navigate('Lugares', {
-            position: index
+            lugar: lugar
         })
     }
 
