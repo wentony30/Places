@@ -4,7 +4,7 @@ export const Container = Styled.SafeAreaView`
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: #0cadff;
+    background-color: ${props => props.theme.backgroundVaga};
 `;
 
 export const Mensagem = Styled.Text`

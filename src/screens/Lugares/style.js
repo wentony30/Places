@@ -2,6 +2,7 @@ import Styled from 'styled-components/native'
 
 export const Container = Styled.View`
     flex: 1;
+    background: ${props => props.theme.background};
 `;
 
 export const Imagem = Styled.Image`
@@ -28,14 +29,17 @@ export const Voltar = Styled.TouchableOpacity`
 
 export const Titulo = Styled.Text`
     font-size: 25px;
-    font-weight: bold;
+    font-family: 'Baloo2-ExtraBold';
     margin: 20px; 
+    color: ${props => props.theme.titleColor};
 `;
 
 export const Descricao = Styled.Text`
     margin: 0 20px 20px;
     font-size: 16px;
-    color: #000000aa;
+    font-family: 'Baloo2-Regular';
+    line-height: 20px;
+    color: ${props => props.theme.titleColor+'aa'};
 `;
 
 export const GuardarLugar = Styled.TouchableOpacity`

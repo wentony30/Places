@@ -3,7 +3,7 @@ import {StyleSheet, Text, View, Image, ScrollView} from 'react-native'
 import Lugares from '../../../db.json'
 import {Container, TituloCidade, ContainerItem, TextItem} from './style'
 import {useNavigation} from '@react-navigation/native'
-import Header from '../../components/Header'
+
 
 const Home = () => {
 
@@ -34,14 +34,13 @@ const Home = () => {
 
     return (
         <>
-            <Header />
             <ScrollView>
                 <Container>
                     {
                         arrayLugares.map((lugar, index) => {
                             return (
                                 <View key={lugar.cidade.nome_cidade}>
-                                    <TituloCidade >{lugar.cidade.nome_cidade}</TituloCidade>
+                                    <TituloCidade index={index}>{lugar.cidade.nome_cidade}</TituloCidade>
                                     <ContainerLugares index={index} />
                                 </View>
                             );
